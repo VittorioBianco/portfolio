@@ -1,0 +1,27 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+h1 {
+    color: 1e1e1e;
+}
+.about-us div {
+    position: absolute;
+    top: 30%;
+    background-color: rgba(8, 126, 126, 0.836);
+    margin: 0 0 0 50px;
+}
+section {
+    min-height: 100vh;
+    background-color: rgb(78, 104, 223);
+    margin-left: 270px;
+
+}  
+p { 
+    color: rgb(44, 44, 44);
+}
+
+.experience div {
+    margin-top: 50px;
+
+}
