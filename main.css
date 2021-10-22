@@ -8,13 +8,13 @@ h1 {
 .about-us div {
     position: absolute;
     top: 30%;
-    background-color: rgba(8, 126, 126, 0.836);
+    background-color:  #75ba75;
     margin: 0 0 0 50px;
 }
 section {
     min-height: 100vh;
-    background-color: rgb(78, 104, 223);
-    margin-left: 270px;
+    background-color:#1d2022;
+    margin-left: 290px;
 
 }  
 p { 
@@ -25,3 +25,47 @@ p {
     margin-top: 50px;
 
 }
+
+nav {
+    min-height: 100vh;
+    width: 290px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #16191b
+
+}
+
+nav ul {
+    list-style-type: none;
+
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    }
+
+nav img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 4px solid rgba(117,186,117,0.5)
+}
+
+nav a:hover {
+    color: rgba(117,186,117,0.5)
+  }
+
+.travel-entries {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
+      
+html {
+          scroll-behavior: smooth;
+      }
+
+  
